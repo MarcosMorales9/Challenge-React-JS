@@ -13,7 +13,6 @@
   align-items: center;
   justify-content: center;
   width: 15vw;
-  height: 45%;
   border: 3px solid gainsboro;
   border-radius: 5px;
   padding: 1%;
@@ -23,6 +22,7 @@
 .textFact{
   width: 90%;
   margin-bottom: 0;
+  font-weight: bold;
 }
 /*posicionamiento de el texto */
 .fotitoGatito{
@@ -45,7 +45,6 @@ button{
   border-radius: 5px;
   border: none;
   align-items: center;
-  margin-bottom: 1.5rem;
 }
 /*aplicamos estilos al boton y lo llamamos con su etiqueta*/
  button:hover{
@@ -54,3 +53,10 @@ button{
  cursor: pointer;
 }
 /* utilizamos el hover para que cuando el cursor esta encima del boton, cambia el cursor y el fondo*/
+
+@media (max-width: 1024px) {
+  .cardAnimal{
+    width: 44vw;
+    height: 77%;
+  }
+}
