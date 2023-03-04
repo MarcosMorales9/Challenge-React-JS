@@ -14,7 +14,7 @@
   justify-content: center;
   width: 15vw;
   height: 45%;
-  border:3px solid gainsboro;
+  border: 3px solid gainsboro;
   border-radius: 5px;
   padding: 1%;
   padding-bottom: 2%;
@@ -30,6 +30,7 @@
  height: 65%;
  border-radius: 10%;
  padding: 1rem;
+ object-fit: cover;
 }
 /*tamaño y borde de la imagen*/
 button{
@@ -44,10 +45,12 @@ button{
   border-radius: 5px;
   border: none;
   align-items: center;
+  margin-bottom: 1.5rem;
 }
 /*aplicamos estilos al boton y lo llamamos con su etiqueta*/
  button:hover{
   background-color: gainsboro;
+  color: black;
  cursor: pointer;
 }
 /* utilizamos el hover para que cuando el cursor esta encima del boton, cambia el cursor y el fondo*/
